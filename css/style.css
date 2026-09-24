@@ -1,0 +1,87 @@
+p {
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#description{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#career-goal{   
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#personal tagline{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.flex-container {
+ display: flex;
+ justify-content: center; /* Horizontal centering */
+ align-items: center; /* Vertical centering */
+ padding: 40px; 
+}
+
+img {
+ max-width: 30%; /* Shrinks the image to 50% of its original width */
+ height: auto; /* Maintains the aspect ratio */
+ border: 1px solid black;
+ border-radius: 50%;
+ display: block;
+ margin-bottom: 20px;
+}
+
+.container3 {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.container3 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container3:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.container3 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
