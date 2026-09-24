@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
   background-color: #ffffff;
@@ -55,7 +56,7 @@ header {
 }
 
 .image {
-  max-width: 30%;
+  max-width: 200px;
   height: auto;
   border: 1px solid black;
   border-radius: 50%;
@@ -95,6 +96,8 @@ header {
   margin: 0 auto;
   padding: 60px 24px 20px;
   text-align: center;
+  border-top: 1px solid #dcdcdc;
+
 }
 
 .label {
@@ -136,26 +139,51 @@ main {
 
 .split {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .split .block:last-child {
   border-top: 1px solid #dcdcdc;
   border-left: 1px solid #dcdcdc;
-  border-bottom: 1px solid #dcdcdc;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .goal {
   border-bottom: 1px solid #dcdcdc;
 }
 
-footer {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 24px 24px 48px;
-  color: #6b7580;
-  font-size: 14px;
-  font-family: "Courier New", monospace;
+/* Skills section */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skill-card {
+  width: 180px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
   text-align: center;
 }
+
+.skill-card:hover {
+  border-color: #b5702e;
+  
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a1a1a;
+  margin: 0 0 10px;
+}
+
+.skill-card p {
+  font-size: 15px;
+  margin: 0;
+}
+
