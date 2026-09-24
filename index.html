@@ -1,32 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header class="container">
-            <h1>Welcome to My Portfolio</h1>
-        </header>
-            <section class="container2"> 
-                <div class="flex-container">
-                    <img src="images/profile.jpg" alt="Profile Photo">
-                </div>
-            
-                <h2>Hi, I'm Hazel Katherine B. Paldo</h2>
-                <p id="description">I'm a student at Caraga State University,
-                    taking up Bachelor of Science in Computer Science.</p>
-                <p id="career-goal">I'm a future web developer and designer.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container1" id="top">
+        <h1>Welcome to My Portfolio</h1>
+    </header>
 
-                <p id="personal tagline"><b><i>"I build things the way I kept going 
-                    — one piece at a time."</i></b>
-                </p>
+    <section class="container2">
+        <div class="flex-container">
+            <img src="images/profile.jpg" alt="Profile Photo" class="image">
+        </div>
+
+        <h2>Hi, I'm Hazel Katherine B. Paldo</h2>
+        <p id="description">I'm a student at Caraga State University,
+            taking up Bachelor of Science in Computer Science.</p>
+        <p id="career-goal">I'm a future web developer and designer.</p>
+
+        <p id="personal-tagline"><b><i>"I build things the way I kept going
+            — one piece at a time."</i></b>
+        </p>
+    </section>
+
+    <nav class="container3">
+        <a href="#about">Learn More About Me</a>
+    </nav>
+
+    <section class="info" id="about">
+        <div class="info-text">
+            <p class="label">about me</p>
+            <h1>Hazel Katherine</h1>
+            <p class="tagline">Third-year Computer Science student,
+                learning to build things for the web.</p>
+        </div>
+    </section>
+
+    <main>
+
+        <section class="block">
+            <h2>Background</h2>
+            <p>My interest in technology started with learning the basics of C
+            programming. Working through its logic gave me a solid foundation in
+            how to think through problems — one step, one condition, one loop at
+            a time. That foundation is what pulled me toward web development,
+            where I'm now learning HTML, CSS, and JavaScript as a Computer
+            Science student at Caraga State University.</p>
+        </section>
+
+        <div class="split">
+            <section class="block">
+                <h2>Interests</h2>
+                <p>Coding is where most of my curiosity goes right now, especially
+                the process of turning an idea into something people can actually
+                click through and use. I like the mix of logic and design that web
+                development asks for.</p>
             </section>
 
+            <section class="block">
+                <h2>Hobbies</h2>
+                <p>Outside of code, I read. It's a slower kind of learning, but it
+                keeps my thinking sharp and gives me a break from the screen
+                without losing that sense of picking something up.</p>
+            </section>
+        </div>
+
+        <section class="block goal">
+            <h2>Goal</h2>
+            <p>I'm working toward becoming a web developer — building websites
+            and applications that are functional and genuinely easy to use. This
+            site is part of that process: a place to track what I'm learning as
+            I build it.</p>
+        </section>
+
         <nav class="container3">
-            <a href="#">Learn More About Me</a>
+            <a href="#top">Back to Top</a>
         </nav>
-    </body>
-    
+
+    </main>
+
+    <footer>
+        <p>Hazel Katherine · Computer Science, Caraga State University</p>
+    </footer>
+</body>
 </html>

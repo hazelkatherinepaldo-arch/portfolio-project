@@ -1,40 +1,43 @@
-p {
-    color:black;
-    font-size: 20px;
-    text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-#description{
-    color:black;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-#career-goal{   
-    color:black;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-#personal tagline{
-    color:black;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
 }
 
 h1 {
-    color: black;
-    font-size: 40px;
-    text-align: center;
+  color: #1a1a1a;
+  font-size: 40px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0;
 }
 
 h2 {
-    color: black;
-    font-size: 30px;
-    text-align: center;
+  color: #1a1a1a;
+  font-size: 30px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+p,
+#description,
+#career-goal,
+#personal-tagline {
+  color: #1a1a1a;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -43,45 +46,116 @@ header {
   text-align: center;
 }
 
-
+/* Home page */
 .flex-container {
- display: flex;
- justify-content: center; /* Horizontal centering */
- align-items: center; /* Vertical centering */
- padding: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
-img {
- max-width: 30%; /* Shrinks the image to 50% of its original width */
- height: auto; /* Maintains the aspect ratio */
- border: 1px solid black;
- border-radius: 50%;
- display: block;
- margin-bottom: 20px;
+.image {
+  max-width: 30%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .container3 {
-    display: block;
-    width: fit-content;
-    margin: 20px auto;
-    border: 2px solid black;
-    padding: 10px 20px;
-    border-radius: 8px;
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
 .container3 a {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container3:hover {
-    background-color: lightblue;
-    border-color: lightblue;
+  background-color: lightblue;
+  border-color: lightblue;
 }
 
 .container3 a:hover {
-    color: black;
-    text-decoration: underline;
+  color: #1a1a1a;
+  text-decoration: underline;
 }
 
+/* About page */
+.info {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 24px 20px;
+  text-align: center;
+}
+
+.label {
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  color: #b5702e;
+  margin: 0 0 10px;
+  letter-spacing: 0.5px;
+}
+
+.tagline {
+  color: #555f68;
+  font-size: 18px;
+  max-width: 480px;
+  margin: 18px auto 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px 24px 80px;
+}
+
+.block {
+  padding: 35px 0;
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+.block h2 {
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+
+.block p {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.split {
+  display: flex;
+  gap: 20px;
+}
+
+.split .block:last-child {
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  padding-left: 20px;
+}
+
+.goal {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+footer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 24px 48px;
+  color: #6b7580;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
